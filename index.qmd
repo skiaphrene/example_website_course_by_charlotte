@@ -20,6 +20,6 @@ bla bla
 
 |  |  |
 |------------------------------------|------------------------------------|
-| Analysis 1 | [![](example_analysis_files/figure_html/unnamed-chunk-4-1.png)] |
+| Analysis 1 | [![](example_analysis_files/figure-html/unnamed-chunk-4-1.png)] |
 
 # EOF
