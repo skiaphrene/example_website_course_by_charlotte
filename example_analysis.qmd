@@ -1,0 +1,33 @@
+---
+title: "Example Analysis"
+author: "Alex SMITH"
+date: 16-12-2025
+format: html
+editor: visual
+---
+
+# Load packages
+
+```{r}
+#| echo: false
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(ggplot2)
+})
+```
+
+# Make plot
+
+```{r}
+ggplot(penguins, aes(x=flipper_len, y=bill_len, color=species)) +
+  geom_point() +
+  theme_minimal()
+```
+
+# Session Info
+
+```{r}
+sessionInfo()
+```
+
+# EOF
